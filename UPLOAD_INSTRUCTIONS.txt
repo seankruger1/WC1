@@ -1,0 +1,27 @@
+CLEAN VERCEL STATIC UPLOAD
+
+Before uploading, delete everything currently in your GitHub repo.
+
+Then upload ONLY these files and folders from this ZIP:
+
+index.html
+assets/
+scenarios/
+interventions/
+skills/
+README.md
+vercel.json
+UPLOAD_INSTRUCTIONS.txt
+
+Do NOT upload or keep any of these old files/folders:
+
+app/
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+next.config.js
+tsconfig.json
+node_modules/
+
+This build has no package.json, so Vercel should not run npm, pnpm, or Next.js.
